@@ -31,7 +31,7 @@ run_downsampling() {
         for rid in $REPLIDS; do
             expdir=runs/$expname-$dftag-$rid-$TIMESTAMP
             mkdir -p $expdir
-            cp $expname/run.py $expdir
+            cp $expname.py $expdir/run.py
             cp conf/seed-$rid.yml $expdir/config.yml
             echo -e "downsampling_factor\t$df" >> $expdir/config.yml
             if [[ $expname == pip* ]]; then
