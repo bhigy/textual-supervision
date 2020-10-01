@@ -40,3 +40,15 @@ Results presented in Tables 1-3 and 6-10 can be extracted by running:
     python -c "import results; results.print_table_8()"
     python -c "import results; results.print_table_9()"
     python -c "import results; results.print_table_10()"
+
+## Credits
+
+The files `dataset.json` and `dataset_multilingual_human.json` are based on pre-processed information extracted from Flickr8K, Flickr8K Audio Caption Corpus and F30kEnt-JP. While they are provided here for conveniency, credits go to the authors of the original datasets.
+
+* Flickr8K:
+> Hodosh, M., Young, P., & Hockenmaier, J. (2013). Framing Image Description as a Ranking Task: Data, Models and Evaluation Metrics. Journal of Artificial Intelligence Research, 47, 853–899. https://doi.org/10.1613/jair.3994
+* Flickr8K Audio Caption Corpus:
+> Harwath, D., & Glass, J. (2015). Deep multimodal semantic embeddings for speech and images. 2015 IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU), 237–244. https://doi.org/10.1109/ASRU.2015.7404800
+* F30kEnt-JP:
+> Nakayama, H., Tamura, A., & Ninomiya, T. (2020). A Visually-Grounded Parallel Corpus with Phrase-to-Region Linking. Proceedings of The 12th Language Resources and Evaluation Conference, 4197–4203. https://www.aclweb.org/anthology/2020.lrec-1.518
+
