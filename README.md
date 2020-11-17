@@ -1,4 +1,4 @@
-# Textual supervisoin for visually grounded spoken language understanding
+# Textual supervision for visually grounded spoken language understanding
 
 This repository contains the instructions and code to reproduce the results from the paper:
 
